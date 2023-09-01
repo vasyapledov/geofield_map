@@ -1,0 +1,9 @@
+name: 'Geofield Map'
+description: 'Map Widget, Formatter and Views integration for Geofields.'
+core_version_requirement: ^9.3 || ^10
+type: module
+package: Geofield
+dependencies:
+  - geofield:geofield
+
+configure: geofield_map.settings
